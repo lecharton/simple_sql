@@ -20,7 +20,7 @@ class SpaceShip:
         return {
             'Name': self.name,
             'Ship Class': self.ship_class,
-            'Ship Type': self.;[self.ship_type]
+            'Ship Type': self.ship_types[self.ship_type]
         }
 
 SPACESHIPS = """
